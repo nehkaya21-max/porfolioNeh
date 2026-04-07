@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 100px 0;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-primary {
+    border-radius: 25px;
+    padding: 10px 25px;
+    background-color: #764ba2;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #667eea;
+}
+
+.project-card {
+    transition : transform 0.3s ease , box-shadow 0.3s ease;
+}
+.project-card:hover{
+    transform: translateY(-10px);
+    box-shadow : 0 10px 20px rgba(0,0,0,0,15) !important;
+}
+
+/* Style pour les petits badges de compétences */
+.tech-badge {
+    border: 2px solid #764ba2;
+    /* Bordure violette */
+    color: #764ba2;
+    background: transparent;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.tech-badge:hover {
+    background: #764ba2;
+    color: rgb(232, 228, 231);
+}
+.skill-card {
+    padding: 20px;
+    background: rgb(237, 235, 238);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.1);
+}
+
+/* Voici tes bordures pour les badges */
+.tech-badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border: 2px solid #764ba2;
+    /* Bordure violette */
+    color: #764ba2;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: transparent;
+}
